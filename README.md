@@ -21,7 +21,8 @@ l'associer ? Et bien cet algorithme vise à utiliser un modèle de reconnaissanc
 (Ultralytics, YOLO, KNN, HUGGING FACE, ROBOFLOW, Fine Tuning...)
 - Flask est un code Python afin de créer une API via une interface web, pour permmettre à l'utilisateur de spécifier des choix et des images de styles s'afficheront en conséquence
 
-<img width="1440" alt="Capture d’écran 2024-06-07 à 18 19 49" src="https://github.com/Avicenne-ctrl/Projects_git/assets/96823388/beea194d-c6bc-41bb-a36c-d11a2c13ecc1">
+<img width="540" alt="Capture d’écran 2024-06-07 à 18 20 51" src="https://github.com/Avicenne-ctrl/Projects_git/assets/96823388/e974ca71-fefe-4959-b0d0-21397df91804">
+
 
 - notebook-fire: algorithme de détection de feux de forêts sur un flux vidéo 
 (CNN, fine tuning...)
