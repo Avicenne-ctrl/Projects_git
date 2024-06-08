@@ -11,6 +11,10 @@ import pandas as pd
 # Dataset with image path and its clothes, color description
 df = pd.read_csv("Extraction/descriptions_images.csv")
 
+# we save id list and drop
+several_images = df['name']
+df = df.drop(['name'], axis= 1)
+
 app = Flask(__name__)
 
 # the folder where images are stored
@@ -21,7 +25,6 @@ Img = "static/images/data"
 def index():
     
     # we get all the images in the static folder in order to display them in the menu of the web site
-    several_images = df['name']
     imageList = [Img +'/'+ image for image in several_images]
     
     if request.method == 'POST':
