@@ -10,9 +10,10 @@ from typing import List, Tuple, Optional
 
 
 
-def display_classes_repartition(data, var1, var2):
-    """The goal of this function is to display a density graph to see the repartition of one label's value
-       depending on the value we want to predict.
+def display_classes_repartition(data, var1: str, var2: str):
+    """
+    Display a density graph to see the repartition of one label's value
+    depending on the value we want to predict.
 
     Args:
         data (pd.DataFrame): the dataframe we want to visualize
@@ -61,7 +62,7 @@ def display_classes_repartition(data, var1, var2):
     plt.show()
     
     
-def display_density_comparison(data, var1, var2):
+def display_density_comparison(data, var1: str, var2: str):
     """The goal of this function is to display a density graph to see the repartition of one label's value
        depending of the value we want to predict.
 
